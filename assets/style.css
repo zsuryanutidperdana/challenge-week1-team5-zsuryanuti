@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+body {
+    background-image: url("./images/QKvTkQBuSLZeNbFxQbjWR6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.head-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(0,9,9,1) 0%, rgba(154,144,144,1) 85%);
+}
+
+.nav-bar {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    border-top: solid 5px silver;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.nav-bar > p {
+    align-content: space-between;
+    text-align: center;
+    margin: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: auto;
+}
+
+.nav-bar > p:hover {
+    background-color: #444141;
+}
+
+.sticky-bar {
+    position: fixed;
+    width: 100%;
+}
+
+#head-icon {
+    height: 150px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.main-container {
+    display: flex;
+    background: rgba(0, 0, 0, 60%);
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 200px;
+    text-align: top;
+    padding-bottom: 500px;
+    font-size: 12px;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.foot-container {
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: black;
+    margin: 0;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    border-top: solid white 5px
+}
+
+.social-media > img {
+    width: 64px;
+    height: 64px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+img#linkedin, img#whatsapp, img#github {
+    width: 46px;
+    height: 46px;
+    margin-bottom: 20px;
+    
+}
+
+p#line2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
