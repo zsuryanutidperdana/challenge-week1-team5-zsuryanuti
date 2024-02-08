@@ -8,4 +8,5 @@ Link deployment: [Link Website](https://zsuryanutidperdana.github.io/challenge-w
 
 [MIT License](./LICENSE.md)
 
+**Disclaimer**: _This site was made only for learning purpose. There are no harm and ill intention towards the original creation._
 
